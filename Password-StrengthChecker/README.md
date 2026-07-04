@@ -38,27 +38,32 @@ Password-Strength-Checker/
 Clone the repository:
 
 Bash
+```
 git clone https://github.com/abdulrehman-sec1/Password-Strength-Checker.git
 ```
-
+```
 cd Password-Strength-Checker
 
 ```
 ## Install dependencies:
 
 Bash
+```
 pip install -r requirements.txt
+```
 ```
 ```
 # Usage
 Run the main application interface:
 
 Bash
+```
 python main.py
 ```
 Run test coverage modules:
 ```
 Bash
+```
 python -m unittest discover tests
 ```
 
@@ -74,6 +79,7 @@ Entropy Modifiers: High bits yield bonus weights.
 
 Penalties: Common words or pattern strings subtract value dynamically.
 ```
+
 ```
 # Strength Levels
 0–20: Very Weak
